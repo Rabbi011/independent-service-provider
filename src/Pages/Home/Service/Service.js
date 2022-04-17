@@ -11,6 +11,7 @@ const Service = ({service}) => {
             <p>Price: {price}</p>
             <p><small>{description}</small></p>
             <button>Book Now</button>
+            
         </div>
     );
 };
