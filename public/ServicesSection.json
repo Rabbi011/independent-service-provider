@@ -1,0 +1,24 @@
+[
+    {
+        "id":1,
+        "name":"OUT SCHEDULE",
+        "price":"5000",
+        "description":"Choose Yor Level and Focus",
+        "img":"https://i.ibb.co/ZhpX8Fc/schedule.webp"
+    },
+    {
+        "id":2,
+        "name":"OUR CLASSES OF FITNESS",
+        "price":"3000",
+        "description":"From beginner to a profession",
+        "img":"https://i.ibb.co/BBjqTZh/fitness.jpg"
+    },
+    {
+        "id":3,
+        "name":"OUR SHOP",
+        "price":"90000",
+        "description":"Anything you need",
+        "img":"https://i.ibb.co/885qQyR/shop.jpg"
+    }
+
+]
