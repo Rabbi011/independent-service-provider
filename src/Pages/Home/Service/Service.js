@@ -16,7 +16,7 @@ const Service = ({ service }) => {
             <p>Price: {price}</p>
             <p><small>{description}</small></p>
             <Link to="/checkOuts">
-            <button onClick={() => navigateToServiceDetail(id)}>Book Now</button>
+            <button onClick={() => navigateToServiceDetail(id)} className='three-d-button-design'>Book Now</button>
             </Link>
             
 
