@@ -19,8 +19,8 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Do gym trainers actually work?</h3>
+                    <p>Working out with a personal trainer can actually boost the success rate of achieving your fitness goals by more than 30 percent</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -31,8 +31,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>How much money is gym trainer?</h3>
+                    <p>Personal trainers charge $25 to $50 per 30-minute session, $40 to $70 per hour session, and $60 to $100 per 90-minute session.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -43,9 +43,9 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
+                    <h3>What do trainers do at the gym?</h3>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    Fitness trainers and instructors lead, instruct, and motivate individuals or groups in exercise activities, including cardiovascular exercises.
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>
