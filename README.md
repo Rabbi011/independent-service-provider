@@ -2,7 +2,7 @@
 
 # [Gym trainer Website](https://willowy-maamoul-952a7f.netlify.app/)
 
-Live Website Link [Create React App](https://willowy-maamoul-952a7f.netlify.app/).
+Live Website Link [Gym trainer site link](https://willowy-maamoul-952a7f.netlify.app/).
 
 * User Login Or signUp with google and email or password
 * use protect router
