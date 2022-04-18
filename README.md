@@ -11,6 +11,7 @@ Live Website Link [Create React App](https://github.com/facebook/create-react-ap
 * some error handle 
 * responsive header
 * User reset your password
+* User verify your email
 
 # Technologies
 * React Router Hooks
