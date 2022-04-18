@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
@@ -6,6 +6,7 @@ import auth from '../../../firebase.init';
 import Social from '../Social/Social';
 
 const SignUp = () => {
+    const [agree, setAgree] = useState(false)
     const [
         createUserWithEmailAndPassword,
         user,
@@ -30,8 +31,6 @@ const SignUp = () => {
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
         createUserWithEmailAndPassword(email, password)
-       
-
     }
 
     return (
@@ -54,9 +53,9 @@ const SignUp = () => {
                     <Form.Control ref={ passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
+                    <Form.Check onClick={() =>setAgree(!agree)} className={agree ? 'text-primary' : 'text-danger'} type="checkbox" name='terms' id='terms' label="Check me out" />
                 </Form.Group>
-                <Button variant="primary w-50 mx-auto d-block mb-2" type="submit">
+                <Button disabled ={!agree} variant="primary w-50 mx-auto d-block mb-2" type="submit">
                     SignUp
                 </Button>
             </Form>
